@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A234DA2218A3C8CC00660E56 /* RITPensioner.m in Sources */ = {isa = PBXBuildFile; fileRef = A234DA2118A3C8CC00660E56 /* RITPensioner.m */; };
+		A234DA2518A3E5E300660E56 /* RITBusinessman.m in Sources */ = {isa = PBXBuildFile; fileRef = A234DA2418A3E5E300660E56 /* RITBusinessman.m */; };
 		A2C75B9318A3C2D30044DCA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C75B9218A3C2D30044DCA6 /* Foundation.framework */; };
 		A2C75B9518A3C2D30044DCA6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C75B9418A3C2D30044DCA6 /* CoreGraphics.framework */; };
 		A2C75B9718A3C2D30044DCA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C75B9618A3C2D30044DCA6 /* UIKit.framework */; };
@@ -19,6 +21,8 @@
 		A2C75BAE18A3C2D30044DCA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C75B9618A3C2D30044DCA6 /* UIKit.framework */; };
 		A2C75BB618A3C2D30044DCA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2C75BB418A3C2D30044DCA6 /* InfoPlist.strings */; };
 		A2C75BB818A3C2D30044DCA6 /* _0NotificationsTestHW01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C75BB718A3C2D30044DCA6 /* _0NotificationsTestHW01Tests.m */; };
+		A2C75BC518A3C32E0044DCA6 /* RITDoctor.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C75BC218A3C32E0044DCA6 /* RITDoctor.m */; };
+		A2C75BC618A3C32E0044DCA6 /* RITGovernment.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C75BC418A3C32E0044DCA6 /* RITGovernment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A234DA2018A3C8CC00660E56 /* RITPensioner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITPensioner.h; sourceTree = "<group>"; };
+		A234DA2118A3C8CC00660E56 /* RITPensioner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITPensioner.m; sourceTree = "<group>"; };
+		A234DA2318A3E5E300660E56 /* RITBusinessman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITBusinessman.h; sourceTree = "<group>"; };
+		A234DA2418A3E5E300660E56 /* RITBusinessman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITBusinessman.m; sourceTree = "<group>"; };
 		A2C75B8F18A3C2D30044DCA6 /* 10NotificationsTestHW01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 10NotificationsTestHW01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C75B9218A3C2D30044DCA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A2C75B9418A3C2D30044DCA6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +56,10 @@
 		A2C75BB318A3C2D30044DCA6 /* 10NotificationsTestHW01Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "10NotificationsTestHW01Tests-Info.plist"; sourceTree = "<group>"; };
 		A2C75BB518A3C2D30044DCA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A2C75BB718A3C2D30044DCA6 /* _0NotificationsTestHW01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0NotificationsTestHW01Tests.m; sourceTree = "<group>"; };
+		A2C75BC118A3C32E0044DCA6 /* RITDoctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITDoctor.h; sourceTree = "<group>"; };
+		A2C75BC218A3C32E0044DCA6 /* RITDoctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITDoctor.m; sourceTree = "<group>"; };
+		A2C75BC318A3C32E0044DCA6 /* RITGovernment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITGovernment.h; sourceTree = "<group>"; };
+		A2C75BC418A3C32E0044DCA6 /* RITGovernment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITGovernment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +119,14 @@
 		A2C75B9818A3C2D30044DCA6 /* 10NotificationsTestHW01 */ = {
 			isa = PBXGroup;
 			children = (
+				A234DA2318A3E5E300660E56 /* RITBusinessman.h */,
+				A234DA2418A3E5E300660E56 /* RITBusinessman.m */,
+				A234DA2018A3C8CC00660E56 /* RITPensioner.h */,
+				A234DA2118A3C8CC00660E56 /* RITPensioner.m */,
+				A2C75BC118A3C32E0044DCA6 /* RITDoctor.h */,
+				A2C75BC218A3C32E0044DCA6 /* RITDoctor.m */,
+				A2C75BC318A3C32E0044DCA6 /* RITGovernment.h */,
+				A2C75BC418A3C32E0044DCA6 /* RITGovernment.m */,
 				A2C75BA118A3C2D30044DCA6 /* RITAppDelegate.h */,
 				A2C75BA218A3C2D30044DCA6 /* RITAppDelegate.m */,
 				A2C75BA418A3C2D30044DCA6 /* Images.xcassets */,
@@ -241,6 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2C75BA318A3C2D30044DCA6 /* RITAppDelegate.m in Sources */,
+				A234DA2218A3C8CC00660E56 /* RITPensioner.m in Sources */,
+				A2C75BC518A3C32E0044DCA6 /* RITDoctor.m in Sources */,
+				A2C75BC618A3C32E0044DCA6 /* RITGovernment.m in Sources */,
+				A234DA2518A3E5E300660E56 /* RITBusinessman.m in Sources */,
 				A2C75B9F18A3C2D30044DCA6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +466,7 @@
 				A2C75BBD18A3C2D30044DCA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2C75BBE18A3C2D30044DCA6 /* Build configuration list for PBXNativeTarget "10NotificationsTestHW01Tests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +475,7 @@
 				A2C75BC018A3C2D30044DCA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
