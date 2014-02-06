@@ -25,11 +25,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(governmentNotification:)
-                                                 name:RITGovernmentTaxLevelDidChangeNotification
-                                               object:nil];
-    
+    // create government object
     self.government  = [[RITGovernment alloc] init];
     
     // create human objects
@@ -88,17 +84,6 @@
     NSLog(@"\n");
     
     return YES;
-}
-
-- (void) governmentNotification: (NSNotification*) notification {
-    
-    //NSLog(@"governmentNotification userInfo = %@", notification.userInfo);
-    
-}
-
-- (void) dealloc {
-    //[[NSNotificationCenter defaultCenter] removeObserver:self name:RITGovernmentTaxLevelDidChangeNotification object:nil];
-    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
